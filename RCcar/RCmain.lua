@@ -493,7 +493,7 @@ events.TICK:register(function ()
 		end
 	end
 	RC.sync_time = RC.sync_time + 1
-	engineSound:setPos(RC.pos):setPitch((e*1+0.7) * cam.d):setVolume(math.clamp(math.clamp(e*8,0.0,1),0,0.1))
+	engineSound:setPos(RC.pos):setPitch((e*1+0.7) * cam.d):setVolume(math.clamp(math.clamp(e*8,0.0,1),0,1))
 	RC.lpos = RC.pos - RC.dpos
 	RC.lvel = RC.vel:copy()
 	RC.lrot = RC.rot
