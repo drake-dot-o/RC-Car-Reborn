@@ -15,7 +15,9 @@
 | A / D    |            | Steers the RC                | ✔                 |
 | F        |            | Honk                         | ✔                 |
 | Spacebar |            | Jump                         | ✔                 |
+| Shift    |            | Boost                        | ✔                 |
 | `        | Double tap | Respawn Car                  |                   |
+
 
 ## 🏎️ New since Prewrite🏁 
 * Suspension
